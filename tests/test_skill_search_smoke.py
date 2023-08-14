@@ -1,5 +1,5 @@
 import pytest
-from Skill_search import *
+from Skill_search.Skill_search import *
 
 
 def test_skill_search_base_nesessary_fields():
@@ -39,7 +39,6 @@ def test_skill_search_base_nesessary_fields():
     assert "'Content-Type': 'application/json'" in str(res_headers)
 
 
-@pytest.mark.smoke
 def test_skill_search_with_optional_fields():
     # Базовый позитивный со всеми опциональными параметрами в body и query params
     # S-API-Ss-02b

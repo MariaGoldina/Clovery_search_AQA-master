@@ -1,4 +1,4 @@
-from Node_employees_search import *
+from Node_employees_search.Node_employees_search import *
 
 
 def test_nes_base_positive():
